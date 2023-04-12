@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10 px */
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .5rem;
+    line-height: 2;
+}
+.seccion1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mesa{
+    width: 25px;
+    height: 25px;
+}
+    
+    

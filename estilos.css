@@ -1,0 +1,24 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section1{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area: 1/1/2/2;
+    
+}
+.mesa1{
+    
+    
+}
+
+
+    
+    
